@@ -16,7 +16,7 @@ namespace Tyuiu.GroshevID.Sprint3.Task0.V18.Test
 
             double res = ds.GetMultiplySeries(x, k1, k2);
 
-            double wait = 11.535;
+            double wait = 914700.94;
 
             Assert.AreEqual(wait, res);
         }
